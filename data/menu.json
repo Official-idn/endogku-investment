@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "nama": "Tahu Tahu Endog",
+    "deskripsi": "Mahakarya Pontimalang. Tahu sutra berbalut telur garing di luar dan lembut di dalam, disiram saus petis kacang premium yang kental, medok, dan kaya rasa. Wajib coba!",
+    "gambar": "detail-tahutahuendog.jpg",
+    "badge": {
+      "teks": "SIGNATURE",
+      "warna": "bg-endog-oranye"
+    }
+  },
+  {
+    "id": 2,
+    "nama": "EndogKu 2 (Biji 2)",
+    "deskripsi": "Ketika satu tidak pernah cukup. Nikmati porsi dobel dengan dua telur ceplok sempurna, pinggiran garing, kuning lumer, dan saus Ponti rahasia kami.",
+    "gambar": "detail-endogku2.jpg",
+    "badge": {
+      "teks": "BEST SELLER",
+      "warna": "bg-red-600"
+    }
+  },
+  {
+    "id": 3,
+    "nama": "Keringetan 1, 2, 3",
+    "deskripsi": "Pilih level keberanianmu! Nasi telor andalan kami yang dipadukan dengan sambal bawang segar. Dari pedas nikmat hingga ledakan pedas yang bikin nagih.",
+    "gambar": "detail-keringetan.jpg",
+    "badge": {
+      "teks": "SPICY CHALLENGE",
+      "warna": "bg-gray-800"
+    }
+  },
+  {
+    "id": 4,
+    "nama": "Endog Kocok",
+    "deskripsi": "Sensasi lembut dan gurih dari telur orak-arik dengan tekstur *creamy*, dimasak dengan suwiran daging ayam asli dan bumbu rempah pilihan. Pilihan nyaman untuk setiap saat.",
+    "gambar": "detail-endogkocok.jpg",
+    "badge": null
+  },
+  {
+    "id": 5,
+    "nama": "EndogKu 1 (Biji 1)",
+    "deskripsi": "Pilihan tepat untuk kenikmatan yang praktis. Satu telur ceplok *crispy-runny* dengan siraman saus Ponti rahasia di atas nasi pulen. Sederhana, tapi tak pernah gagal memuaskan.",
+    "gambar": "detail-endogku1.jpg",
+    "badge": null
+  }
+]

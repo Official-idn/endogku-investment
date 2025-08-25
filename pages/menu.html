@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lengkap - Endog.Ku</title>
+    
+    <meta name="description" content="Jelajahi semua menu andalan Endog.Ku. Dari seri Nasi Telor Ponti yang otentik, Keringetan pedas, hingga Tahu Tahu Endog khas Pontimalang yang unik.">
+
+    <!-- Path ke file CSS dan JS disesuaikan -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'endog-kuning': '#FFC700',
+                        'endog-oranye': '#FFA500',
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'nunito': ['Nunito', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+        body {
+            font-family: 'nunito', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header id="header-placeholder"></header>
+
+    <main>
+        <!-- 1. Banner Halaman Menu -->
+        <section class="relative h-[40vh] flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('../assets/img/banner-menu.jpg');">
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+            <div class="relative z-10 px-4">
+                <h1 class="text-4xl md:text-6xl font-extrabold font-poppins text-white leading-tight">
+                    Setiap Gigitan,<br>Sebuah Cerita Rasa.
+                </h1>
+                <p class="text-lg md:text-xl text-white mt-4 max-w-3xl mx-auto">
+                    Jelajahi inovasi rasa Pontimalang kami, diracik dari bahan baku pilihan dan resep rahasia.
+                </p>
+            </div>
+        </section>
+                <!-- 2. Grid Menu Lengkap -->
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                     <h2 class="text-4xl md:text-5xl font-bold font-poppins text-black">Menu Andalan Kami</h2>
+                     <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Dari yang otentik hingga inovasi spesial, temukan favoritmu di sini.</p>
+                </div>
+
+                <!-- Placeholder ini akan diisi oleh JavaScript -->
+                <div id="menu-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Kartu menu akan dibuat secara dinamis di sini -->
+                </div>
+            </div>
+        </section>
+        <!-- 3. Call To Action -->
+        <section class="py-20 bg-black">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold font-poppins text-white">Siap Merasakan Kenikmatannya?</h2>
+                <p class="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">Jangan tunda lagi. Kunjungi gerai terdekat kami atau pesan langsung melalui aplikasi favoritmu!</p>
+                <div class="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a href="#" class="w-full sm:w-auto bg-endog-kuning text-black font-bold font-poppins py-3 px-8 rounded-md text-lg hover:bg-endog-oranye transition-colors duration-300">
+                        Pesan Online Sekarang
+                    </a>
+                    <a href="kontak.html" class="w-full sm:w-auto bg-gray-800 text-white font-bold font-poppins py-3 px-8 rounded-md text-lg hover:bg-gray-700 transition-colors duration-300">
+                        Temukan Lokasi Kami
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer-placeholder"></footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>		

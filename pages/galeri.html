@@ -1,0 +1,127 @@
+ <!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - Endog.Ku</title>
+    
+    <meta name="description" content="Lihat lebih dekat momen di balik Endog.Ku. Galeri foto sajian lezat kami, suasana gerai yang hangat, dan keceriaan Warga Endog.Ku.">
+
+    <!-- Path ke file CSS dan JS disesuaikan -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'endog-kuning': '#FFC700',
+                        'endog-oranye': '#FFA500',
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'nunito': ['Nunito', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+        body {
+            font-family: 'nunito', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header id="header-placeholder"></header>
+
+    <main>
+        <!-- 1. Banner Halaman Galeri -->
+        <section class="relative h-[40vh] flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('../assets/img/foto-interaksi.jpg');">
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+            <div class="relative z-10 px-4">
+                <h1 class="text-4xl md:text-6xl font-extrabold font-poppins text-white leading-tight">
+                    Momen di Balik<br>#NasiTelorPalingSukses
+                </h1>
+                <p class="text-lg md:text-xl text-white mt-4 max-w-3xl mx-auto">
+                    Lihat lebih dekat kualitas sajian, hangatnya suasana, dan semangat di balik setiap piring Endog.Ku.
+                </p>
+            </div>
+        </section>
+		        <!-- 2. Grid Galeri Foto -->
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <!-- Nanti di sini bisa ditambahkan tombol filter kategori dengan JavaScript -->
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    
+                    <!-- Gambar 1: Sajian Kami -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="../assets/img/detail-tahutahuendog.jpg" alt="Sajian Tahu Tahu Endog" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    </div>
+                    
+                    <!-- Gambar 2: Suasana Gerai -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="../assets/img/foto-booth-lebar.jpg" alt="Suasana Gerai Endog.Ku" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    </div>
+
+                    <!-- Gambar 3: Di Balik Layar -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="../assets/img/foto-bahan-baku.jpg" alt="Bahan Baku Segar" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    </div>
+
+                    <!-- Gambar 4: Sajian Kami -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="../assets/img/detail-keringetan.jpg" alt="Sajian Keringetan" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    </div>
+
+                    <!-- Gambar 5: Warga Endog.Ku -->
+                     <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="../assets/img/foto-pelanggan.jpg" alt="Pelanggan Endog.Ku" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    </div>
+
+                    <!-- Gambar 6: Sajian Kami -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="../assets/img/detail-endogkocok.jpg" alt="Sajian Endog Kocok" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    </div>
+
+                    <!-- Gambar 7: Lokasi -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="../assets/img/foto-lokasi-pusat.jpg" alt="Lokasi Gerai Pusat" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    </div>
+
+                    <!-- Gambar 8: Sajian Kami -->
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="../assets/img/detail-endogku2.jpg" alt="Sajian EndogKu 2" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    </div>
+                </div>
+            </div>
+        </section>
+		        <!-- 3. Call To Action -->
+        <section class="py-20 bg-endog-kuning">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold font-poppins text-black">Jadilah Bagian dari Momen Kami</h2>
+                <p class="mt-4 text-lg text-black opacity-80 max-w-2xl mx-auto">Ikuti kami di media sosial untuk update terbaru atau ambil langkah selanjutnya untuk menjadi mitra sukses kami.</p>
+                <div class="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a href="kontak.html" class="w-full sm:w-auto bg-black text-white font-bold font-poppins py-3 px-8 rounded-md text-lg hover:bg-gray-800 transition-colors duration-300">
+                        Hubungi Kami
+                    </a>
+                    <a href="kemitraan.html" class="w-full sm:w-auto bg-white text-black font-bold font-poppins py-3 px-8 rounded-md text-lg hover:bg-gray-200 transition-colors duration-300">
+                        Lihat Peluang Kemitraan
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer-placeholder"></footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
